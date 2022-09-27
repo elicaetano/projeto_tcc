@@ -4,7 +4,7 @@ services:
    working_dir: /data
    command: python calendario.py
    links:
-    - calendario
+    - db
    volumes:
     - .:/data
    ports:
